@@ -123,7 +123,14 @@ const Landing = () => {
 export default Landing;
 
 const SKILLS = [
+  { label: "HTML" },
+  { label: "CSS" },
   { label: "JavaScript" },
-  { label: "React" },
   { label: "TypeScript" },
+  { label: "React" },
+  { label: "Tailwind" },
+  { label: "Bootstrap" },
+  { label: "Redux" },
+  { label: "ChakraUI" },
+  { label: "Firebase" },
 ];
