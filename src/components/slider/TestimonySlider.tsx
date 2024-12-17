@@ -80,10 +80,11 @@ const TestimonySlider = ({
             >
               <Text
                 maxW={{ base: 300, sm: 320 }}
-                h={100}
+                h="100%"
                 color={"secondary"}
                 fontSize={{ base: "md", sm: "xl" }}
                 mt={2}
+                textAlign={"justify"}
               >
                 {testimonial?.testimony[i18n.language as keyof DuoLangType]}
               </Text>
