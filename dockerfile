@@ -3,7 +3,7 @@ FROM node:18-alpine AS build
 WORKDIR /app
 
 # Copy package.json and package-lock.json
-COPY package.json ./
+COPY package.json package-lock.json ./
 
 # Install dependencies
 RUN npm install
@@ -21,7 +21,7 @@ WORKDIR /app
 
 # Copy the build files from the build stage
 COPY --from=build /app/dist /app/dist
-COPY --from=build /app/package.json /app/
+COPY --from=build /app/package.json /app/package-lock.json /app/
 
 # Install production dependencies
 RUN npm install
@@ -29,4 +29,4 @@ RUN npm install
 EXPOSE 80
 
 # Start Vite preview server on port 80
-CMD ["npm", "run", "dev","--", "--host", "0.0.0.0", "--port", "80"]
+CMD ["npm", "run", "preview","--", "--host", "0.0.0.0", "--port", "80"]
