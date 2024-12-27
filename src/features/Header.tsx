@@ -1,10 +1,14 @@
 import { Flex, HStack, Image, Link } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
+import MyCV from "../assets/CV_Shihab_FEE.pdf";
 
 const Header = () => {
   const { t, i18n } = useTranslation("home");
   const switchLanguage = () => {
     i18n.changeLanguage(i18n.language != "en-US" ? "en-US" : "bn");
+  };
+  const handleLogoClick = () => {
+    window.open(MyCV, "_blank");
   };
   return (
     <div>
@@ -18,6 +22,8 @@ const Header = () => {
             shadow="sm"
             p="5px"
             mr={{ base: "5", sm: "0" }}
+            cursor={"pointer"}
+            onClick={handleLogoClick}
           />
           <HStack>
             <Image

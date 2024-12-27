@@ -31,6 +31,8 @@ const customConfig = defineConfig({
         Bootstrap: { value: "#000000bc" },
         Firebase: { value: "#feba54" },
         ChakraUI: { value: "#31b03e" },
+        i18next: { value: "#3b0000" },
+        Docker: { value: "#0000bc" },
       },
     },
   },

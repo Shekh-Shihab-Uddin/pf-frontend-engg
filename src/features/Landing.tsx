@@ -50,6 +50,10 @@ const Landing = () => {
               {t("job")}
             </Text>
             <br /> {t("location")}
+            <Text as="span" fontSize={"md"} color="primary.dark">
+              <br />
+              {t("blockchainCompetent")}
+            </Text>
           </Text>
         </Box>
         <HStack mt={14} wrap={"wrap"}>
@@ -133,4 +137,5 @@ const SKILLS = [
   { label: "Redux" },
   { label: "ChakraUI" },
   { label: "Firebase" },
+  { label: "Docker" },
 ];
