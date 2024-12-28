@@ -59,6 +59,7 @@ const LatestProject = () => {
           align={"flex-start"}
           direction={"column"}
           h={480}
+          mb={4}
           w={{ base: "260px", sm: "330px" }}
         >
           <ImageSlider
@@ -77,14 +78,14 @@ const LatestProject = () => {
             {project.title}
           </Heading>
 
-          <Text maxW={{ base: 250, sm: 330 }} h={50} color={"secondary"}>
+          <Text maxW={{ base: 250, sm: 330 }} h={"60px"} color={"secondary"}>
             {project?.description &&
               project?.description[i18n.language as keyof DescriptionType]}
           </Text>
           <HStack
             mt={2}
             maxW={350}
-            h={150}
+            h={155}
             wrap={"wrap"}
             direction={{ base: "column", md: "row" }}
           >
