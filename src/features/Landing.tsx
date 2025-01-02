@@ -138,4 +138,5 @@ const SKILLS = [
   { label: "ChakraUI" },
   { label: "Firebase" },
   { label: "Docker" },
+  { label: "NextJS (basic)" },
 ];

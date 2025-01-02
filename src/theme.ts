@@ -41,6 +41,8 @@ const customConfig = defineConfig({
         EthersJS: { value: "#fe5ba4" },
         Vercel: { value: "#0070bc" },
         Railway: { value: "#0000bc" },
+        NextJS: { value: "#c27308" },
+        "NextJS (basic)": { value: "#c27308" },
       },
     },
   },
