@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import CustomBadge from "@/components/badge/CustomBadge";
-import { lazy } from "react";
 
 const Landing = () => {
   const { t } = useTranslation("home");
