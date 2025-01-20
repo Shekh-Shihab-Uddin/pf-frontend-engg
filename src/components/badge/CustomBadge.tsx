@@ -7,7 +7,7 @@ const Badge: React.FC<{ bg: string; children: React.ReactNode }> = ({
   return (
     <Flex justify={"center"} alignItems={"center"}>
       <Heading
-        w={{ base: "80px", sm: "96px" }}
+        w={{ base: "80px", sm: "104px" }}
         size={"sm"}
         bg={bg}
         color="white"

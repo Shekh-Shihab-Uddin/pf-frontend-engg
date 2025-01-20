@@ -1,9 +1,11 @@
 {
   "greetings": "Hi, this is\nShekh Shihab Uddin",
-  "iAm": "I am ",
-  "job": "a fullstack blockchian developer",
+  "iAm": "I am a ",
+  "job1": " fullstack blockchian developer",
+  "competency": " also competent in",
+  "job2": " forntend development",
   "location": "from Bangladesh",
-  "blockchainCompetent": "(With good competency and experience in Forntend)",
+  "frontendCompetent": "(With good competency and experience in Forntend)",
   "hireMe": "Hire me",
   "expOf": "With experience of",
   "years": "years"

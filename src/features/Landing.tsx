@@ -47,13 +47,14 @@ const Landing = () => {
           <Text fontSize="xl" color="primary.dark">
             {t("iAm")}
             <Text as="span" fontWeight="bold">
-              {t("job")}
+              {t("job1")}
+            </Text>
+            <br />
+            {t("competency")}
+            <Text as="span" fontWeight="bold">
+              {t("job2")}
             </Text>
             <br /> {t("location")}
-            <Text as="span" fontSize={"md"} color="primary.dark">
-              <br />
-              {t("blockchainCompetent")}
-            </Text>
           </Text>
         </Box>
         <HStack mt={14} wrap={"wrap"}>
@@ -145,4 +146,12 @@ const SKILLS = [
   { label: "GraphQL" },
   { label: "Solidity" },
   { label: "Ethereum" },
+  { label: "EthersJS" },
+  { label: "Hardhat" },
+  { label: "ERC20" },
+  { label: "NFTs" },
+  { label: "Hyperledger" },
+  { label: "Blockchain" },
+  { label: "Smart Contracts" },
+  { label: "DeFi" },
 ];
