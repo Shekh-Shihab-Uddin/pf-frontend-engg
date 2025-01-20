@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import CustomBadge from "@/components/badge/CustomBadge";
+import { lazy } from "react";
 
 const Landing = () => {
   const { t } = useTranslation("home");
@@ -138,5 +139,11 @@ const SKILLS = [
   { label: "ChakraUI" },
   { label: "Firebase" },
   { label: "Docker" },
-  { label: "NextJS (basic)" },
+  { label: "NextJS" },
+  { label: "NodeJs" },
+  { label: "ExpressJs" },
+  { label: "MongoDB" },
+  { label: "GraphQL" },
+  { label: "Solidity" },
+  { label: "Ethereum" },
 ];
