@@ -47,6 +47,8 @@ const customConfig = defineConfig({
         ExpressJs: { value: "#233579" },
         MongoDB: { value: "#0550bc" },
         GraphQL: { value: "#3e5ba4" },
+        Fireblocks: { value: "#fe5ba4" },
+        Blockchain: { value: "#fe5ba4" },
       },
     },
   },
