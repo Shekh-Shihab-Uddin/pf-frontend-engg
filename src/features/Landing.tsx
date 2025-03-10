@@ -99,7 +99,7 @@ const Landing = () => {
               >
                 {t("expOf")} <br />{" "}
               </Text>
-              {new Date().getFullYear() - 2022} <br />
+              {new Date().getFullYear() - 2023} <br />
               <Text as="span" fontSize={{ base: "xs", sm: "md", md: "lg" }}>
                 {t("years")}
               </Text>

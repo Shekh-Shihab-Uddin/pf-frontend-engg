@@ -1,6 +1,6 @@
 import { Flex, HStack, Image, Link } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
-import MyCV from "../assets/CV_Shihab_FEE.pdf";
+import MyCV from "../assets/CV_Shihab_BCn.pdf";
 
 const Header = () => {
   const { t, i18n } = useTranslation("home");
